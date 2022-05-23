@@ -12,5 +12,5 @@ x = 0
 for i in liste:
     print(path+i)
     os.rename(path + i ,path + "newName" + str(x) + ".png")
-    x = x+1
+    x += 1
     print(x)
